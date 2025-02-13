@@ -25,12 +25,12 @@ const Datafetch = () => {
         const [count, setCount] = useState(0);
         useEffect(() => {
             fetchData();
-            console.log("First")
+            console.log("First Git change by Cherish")
         }, []);
 
         return (
             <div className='my-10'>
-                Datafetch={count}
+                Datafetch1234={count}
                 <button onClick={() => {
                     setCount(count + 1);
                 }}>Increment</button>
